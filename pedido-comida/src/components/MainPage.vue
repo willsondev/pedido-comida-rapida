@@ -10,7 +10,7 @@
       </nav>
     </header>
   
-    <section class="text-white seccion-uno flex justify-center items-center min-h-screen">
+    <section class="text-white seccion-uno flex justify-center items-center ">
       <Slider />
     </section>
   </div>
