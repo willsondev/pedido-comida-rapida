@@ -11,6 +11,10 @@
     }"
     :modules="modules"
     class="mySwiper"
+    :autoplay="{
+      delay: 5000, // Cambiar cada 5 segundos (ajusta este valor según tus necesidades)
+      disableOnInteraction: false, // Desactiva la pausa automática al interactuar con el slider
+    }"
     >
     <swiper-slide class="text-center">
       <div class="flex mt-10 ml-20">
@@ -87,7 +91,7 @@
   <script>
 import { Swiper, SwiperSlide } from 'swiper/vue';
 import 'swiper/css';
-import { Pagination, Navigation } from 'swiper/modules';
+import { Pagination, Navigation, Autoplay } from 'swiper/modules';
 import 'swiper/css/pagination';
 
 export default {
@@ -98,7 +102,7 @@ export default {
   },
   setup() {
     return {
-      modules: [Pagination, Navigation],
+      modules: [Pagination, Navigation, Autoplay],
     };
   },
 };
