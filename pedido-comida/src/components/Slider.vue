@@ -1,6 +1,6 @@
 <template>
   
-  <div class="my-slider-wrapper">
+  <div class="my-slider-wrapper h-screen">
     <swiper
     :pagination="{
       clickable: true,

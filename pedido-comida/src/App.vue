@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <MainPage />
+    <MenuPageVue/>
     
    
   </div>
@@ -8,6 +9,7 @@
 
 <script>
 import MainPage from './components/MainPage.vue';
+import MenuPageVue from './components/MenuPage.vue';
 
 
 
@@ -15,6 +17,7 @@ export default {
   name: 'App',
   components: {
     MainPage,
+    MenuPageVue
     
     
   }
